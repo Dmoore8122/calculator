@@ -24,6 +24,12 @@ const multiply = (a, b) => {
     return value;
 };*/
 
+const divide = (a, b) => {
+    return a / b;
+};
+const divideArray = (arr) => {
+    let value = arr.reduce((sum, current) => sum / current, );
+    return value;
+}
 
-
-console.log()
+console.log(divideArray([225, 25, 6]))
