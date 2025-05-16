@@ -1,74 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
 </head>
 <body>
-    <div class="calc-display">
-        <div class="screen"></div>
+    <div class="calculator">
+    <input class="display" type="text" value="123 + 456" disabled />
 
-        <div class="buttons">
-            <div class="b7">
-                <button>7</button>
-            </div>
-            <div class="b8"> 
-                <button>8</button>
-            </div>
-            <div class="b9">
-                <button>9</button>
-            </div>
-            <div class="bDash">
-                <button>/</button>
-            </div>
-            <div class="b4">
-                <button>4</button>
-            </div>
-            <div class="b5">
-                <button>5</button>
-            </div>
-            <div class="b6">
-                <button>6</button>
-            </div>
-            <div class="bX">
-                <button>x</button>
-            </div>
-            <div class="b1">
-                <button>1</button>
-            </div>
-            <div class="b2">
-                <button>2</button>
-            </div>
-            <div class="b3">
-                <button>3</button>
-            </div>
-            <div class="bMinus">
-                <button>-</button>
-            </div>
-            <div class="bEqual">
-                <button>=</button>
-            </div>
-            <div class="b0">
-                <button>0</button>
-            </div>
-            <div class="bDeci">
-                <button>.</button>
-            </div>
-            <div class="bPlus">
-                <button>+</button>
-            </div>
-
-            <div class="clear">
-                <button id="clear-button">CLEAR</button>
-             </div>
-        </div>
-
-        
-       
-    </div>   
+    <div class="keys">
+      <button class="clear">C</button>
+      <button class="backspace">⌫</button>
+      <button class="operator">/</button>
+      <button class="operator">*</button>
+      
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button class="operator">-</button>
+      
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button class="operator">+</button>
+      
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button class="equal">=</button>
+      
+      <button>0</button>
+      <button>.</button>
+    </div>
+  </div>
 </body>
 </html>
